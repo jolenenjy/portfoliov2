@@ -350,16 +350,17 @@ const FullImg4 = styled.div`
   width: 100%;
   height: 516px;
   border-radius: 12px;
-  margin-top: 8px;
+  margin-top: 32px;
   margin-bottom: 8px;
   background-image: url(/pg-4.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   @media (max-width: ${theme.breakpoint[1]}) {
-    height: 470px;
+    height: 500px;
   }
   @media (max-width: ${theme.breakpoint[2]}) {
+    margin-top: 8px;
     height: 330px;
   }
 `;
