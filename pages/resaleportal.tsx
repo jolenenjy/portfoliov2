@@ -4,7 +4,6 @@ import theme from "../styles/theme";
 import Layout from "../components/layout";
 import OtherProjects from "../components/otherprojects";
 import TopSection from "../components/topsection";
-import { useViewportScroll } from "framer-motion";
 
 export class Project4 extends React.Component<Props> {
   constructor(props) {
@@ -84,7 +83,7 @@ export class Project4 extends React.Component<Props> {
         <Paragraph>
           As part of a team of 3, I assisted with the research and lead the
           design explorations. I also coded parts of the prototype for user
-          testing and presented the final product to both the CEO of HDB and
+          testing and presented the final product to both the CEO of HDB and the
           Minister of National Development.
         </Paragraph>
         <FullImg />
@@ -136,13 +135,13 @@ export class Project4 extends React.Component<Props> {
         <Subtitle>Key opportunity</Subtitle>
         <Quote>
           How might we better guide citizens through the application process
-          online such that they are empowered to self help?
+          online such that they are empowered to self-help?
         </Quote>
 
         <Subtitle>Mapping the new experience</Subtitle>
         <Paragraph>
           With the findings, we started mapping out the new proposed flow,
-          reducing the number of appointments and working out the internal
+          reducing the number of appointments, and working out the internal
           changes required.
         </Paragraph>
         <FullImg2 />
@@ -194,7 +193,7 @@ export class Project4 extends React.Component<Props> {
           better understand how citizens would interact with the design.
         </Paragraph>
         <Paragraph2>
-          This allowed us to idenitfy areas for refinement like in the timeline
+          This allowed us to identify areas for refinement like in the timeline
           where we reduced the visual weight of the actions available for
           completed steps to allow citizens to better focus on their next step.
         </Paragraph2>

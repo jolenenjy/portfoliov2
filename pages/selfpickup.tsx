@@ -82,8 +82,8 @@ export class Project1 extends React.Component<Props> {
         </Paragraph>
         <Subtitle>My role</Subtitle>
         <Paragraph>
-          As the first designer on the new business team, I conducted the
-          fundamental research, usability testing and designed the experience
+          As the first designer on the new business team, I conducted
+          fundamental research, usability testing, and designed the experience
           for both customers and merchants.
         </Paragraph>
         <FullImg />
@@ -91,7 +91,7 @@ export class Project1 extends React.Component<Props> {
         <Paragraph>
           The project was first initiated when the team looked into the
           different ways people were getting food. Apart from getting it
-          delivered, they could also cook, eat out or get takeout. We realised
+          delivered, they could also cook, eat out, or get takeout. We realised
           there was an opportunity to provide users with an alternative option
           on the app by allowing them to order for pickup.
         </Paragraph>
@@ -99,7 +99,7 @@ export class Project1 extends React.Component<Props> {
         <Paragraph>
           At this point, we found that while we understood the problems people
           face with delivery, we still had a lot to learn how and why they would
-          they get takeout. Hence, I planned for interview and concept testing
+          get takeout. Hence, I planned for interview and concept testing
           sessions in Singapore and Indonesia.
         </Paragraph>
         <FullImg2 />
@@ -120,8 +120,7 @@ export class Project1 extends React.Component<Props> {
           <ListItem>
             <p>
               People tend to be less adventurous for takeout orders and like to
-              find a few good spots near their surroundings e.g. home & office
-              to frequent.
+              find a few good spots near them e.g. their home & office.
             </p>
           </ListItem>
           <ListItem>
@@ -134,7 +133,7 @@ export class Project1 extends React.Component<Props> {
         </List>
         <Subtitle ref={this.Design}>Design</Subtitle>
         <Paragraph>
-          With that, we started mapping out the expected flow as well as how
+          With that, we started mapping out the expected flow as well as how the
           information will pass through from the customer to the merchant before
           working on the design details.
         </Paragraph>
@@ -144,7 +143,7 @@ export class Project1 extends React.Component<Props> {
           Given that when it comes to getting takeout, customers care more about
           how much they need to travel, we made the call to prioritise showing
           how far the restaurant is compared to other information to help with
-          decison making.
+          decision making.
         </Paragraph>
         <FullImg3 />
         <Subtitle>Consideration #2:</Subtitle>
@@ -167,12 +166,12 @@ export class Project1 extends React.Component<Props> {
           When the feature first launched, we noticed an unusually high number
           of cancellations and realised most of it was coming from customers who
           were thought they were made a delivery order. Even though we were
-          aware of this possibilty before launch, we mistakenly thought that
-          subtle cues were sufficient to differentiate the two.
+          aware of this possibility before launch, we mistakenly thought that
+          the cues we had was sufficient.
         </Paragraph>
         <Paragraph2>
-          A quick-fix was implemented to add in stornger visual cues that this
-          is a self pick-up order. With the fix,{" "}
+          A quick-fix was implemented to add in stronger visual cues that this
+          is a self pick-up order. With the fix, the{" "}
           <b>cancellation rates went down from 24% to 5% in a few weeks </b> and
           is nowadays holding steady at 0.5%
         </Paragraph2>
@@ -181,25 +180,25 @@ export class Project1 extends React.Component<Props> {
         <FullImg6 />
         <Subtitle ref={this.Result}>Results</Subtitle>
         <Paragraph>
-          The Self Pick-up product has been steadily growing since the inital
+          The Self Pick-up product has been steadily growing since the initial
           pilot and is now available in 6 countries across South East Asia with
-          over 360k restuarants onboard. Additonally, with the current
+          over 360k restaurants onboard. Additionally, with the current
           covid-reality, self pick-up has been a timely addition to serve the
           needs of customers who wanted to takeout food but did not want to
           spend too much time outdoors.
         </Paragraph>
         <Subtitle>Reflection</Subtitle>
         <Paragraph>
-          It has been a facinating journey seeing a product grow from a blank
-          power point slide to serving thousands of orders daily. In particular,
-          I cherish the experience of working closesly with the team to roll out
+          It has been a fascinating journey seeing a product grow from a blank
+          PowerPoint slide to serving thousands of orders daily. In particular,
+          I cherish the experience of working closely with the team to roll out
           fixes when things were not going as planned after launch.
         </Paragraph>
         <Paragraph2>
-          Since this iteration, we have since also made further improvements and
+          Since this iteration, we have also made further improvements and
           enhancements like showing a map view of nearby restaurants. I'm
-          excited to see to see how the produt will continue to grow as part of
-          Grab's super app.
+          excited to see how the product will continue to grow as part of Grab's
+          super app.
         </Paragraph2>
         <FullImg7 />
         <Subtitle>Other Projects </Subtitle>

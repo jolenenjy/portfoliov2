@@ -35,14 +35,15 @@ export class About extends React.Component {
             , I had the opportunity to lead design work ranging from feature
             improvements to completely new products. I like being involved in
             the end to end product process. From defining scope and research to
-            iterating designs, pushing code (just a little frontend stuff) and
-            running experiments. Afterall, nothing beats seeing the impact of a
+            iterating designs, pushing code (just a little frontend stuff), and
+            running experiments. After all, nothing beats seeing the impact of a
             product live in action.
           </Paragraph>
           <Subtitle>Outside work</Subtitle>
           <Paragraph>
             In my free time, you can find me tinkering with 3d printers, finding
-            interesting recipes to cook (chicken wing gyozas!) or just doodling.
+            interesting recipes to cook (chicken wing gyozas!), or just
+            doodling.
           </Paragraph>
         </AboutText>
       </Layout>
@@ -67,7 +68,7 @@ const AboutText = styled.div`
 const Subtitle = styled.h6`
   margin-top: 32px;
   font-weight: ${theme.fontWeights.semibold};
-  color: ${theme.colors.grey2};
+  color: ${theme.colors.grey3};
   text-transform: uppercase;
   @media (max-width: ${theme.breakpoint[2]}) {
     margin-top: 48px;

@@ -68,7 +68,7 @@ export class Project2 extends React.Component<Props> {
             </Paragraph>
             <Paragraph2>
               By replacing the map with animations and tweaking the visual
-              hierarchy, we saw up to 10% decrease in pre-allocation
+              hierarchy, we saw an up to 10% decrease in pre-allocation
               cancellation (for express).
             </Paragraph2>
           </SideText>
@@ -97,7 +97,7 @@ export class Project2 extends React.Component<Props> {
             <Paragraph>
               With the understanding that users ordering food delivery are often
               motivated by images rather than words, we wanted to allow them to
-              further interact with our item level photos.
+              further interact with our item-level photos.
             </Paragraph>
             <Paragraph2>
               By showing the full photo on scroll and allowing users to zoom in

@@ -119,7 +119,7 @@ export class Project3 extends React.Component<Props> {
         </Paragraph>
         <FullImg2 />
         <Paragraph3>
-          After a few session with various teachers, we found that{" "}
+          After a few sessions with various teachers, we found that{" "}
           <b>sending announcements and collecting consent forms from parents</b>{" "}
           was the most time-consuming activity (most frequent across the year +
           difficulty).
@@ -127,7 +127,7 @@ export class Project3 extends React.Component<Props> {
         <Paragraph2>
           Today, teachers distribute physical copies of a consent form or
           announcement to students to pass to their parents. This leads to
-          issues including lost forms, forgotten forms and so on, causing
+          issues including lost forms, forgotten forms, and so on, causing
           teachers to spend a lot of time chasing for them. Parents, too, face
           similar issues like retrieving the form from their child's messy bag.
         </Paragraph2>
@@ -144,7 +144,7 @@ export class Project3 extends React.Component<Props> {
         <Subtitle ref={this.Design}>Design</Subtitle>
         <Paragraph>
           I started by working closely with the product manager to understand
-          the deatiled feature prioritisation before mapping out rough flows.
+          the detailed feature prioritisation before mapping out rough flows.
           Both mobile and web products were designed incrementally through
           rounds of iterations and testings. View an early cut of the mobile app
           flow <a href="https://overflow.io/s/E33Y22/">here</a>
@@ -180,7 +180,7 @@ export class Project3 extends React.Component<Props> {
           For schools in Singapore, the administrator of the system is often,
           too, a teacher. This means that at any one time, an individual could
           be juggling both their tasks as a teacher and as an admin. From
-          research we found that these users usually deal with these tasks
+          research, we found that these users usually deal with these tasks
           separately and view them as different responsibilities. Hence, we
           decided to clearly separate the two.
         </Paragraph>
@@ -194,8 +194,8 @@ export class Project3 extends React.Component<Props> {
         <FullImg7 />
         <Subtitle ref={this.Result}>Results</Subtitle>
         <Paragraph>
-          The product is now in use by all public school in singapore and have
-          seen over 100k announcements and forms sent. Here's an app store
+          The product is now in use by all public schools in Singapore and over
+          100k announcements and forms have been sent. Here's an app store
           review from a parent:
         </Paragraph>
         <Quote>
@@ -207,12 +207,12 @@ export class Project3 extends React.Component<Props> {
         <Paragraph>
           I am grateful to have been on a product team where I was empowered as
           a designer to guide the product direction. Along the way, I have
-          learned a lot on what it takes to work with developers and in
+          learned a lot about what it takes to work with developers and in
           particular, how to design for react and react native apps.
         </Paragraph>
         <Paragraph2>
           While I did not elaborate on the design considerations for the web app
-          here, that is an area I learnt a lot about. I anticipate seeing how
+          here, that is an area I learned a lot about. I anticipate seeing how
           the product will improve with future releases.
         </Paragraph2>
         <FullImg9 />

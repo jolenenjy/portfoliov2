@@ -13,7 +13,7 @@ const Playground = () => (
       title="Playground"
       title2=""
       title3="Experimental zone"
-      subtitle="Recently, I've been learning how to make stuff in canvas cause I like math & colors."
+      subtitle="Recently, I've been learning how to make stuff with canvas cause I like math & colors."
     />
     <PlayGrid>
       <div>
