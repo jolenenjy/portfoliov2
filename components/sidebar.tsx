@@ -136,7 +136,7 @@ export class Sidebar extends React.Component<Props> {
             </SocialIcon>
           </a>
 
-          <a href="/">
+          <a href="mailto:hello@joleneng.com">
             <SocialIcon
               aria-hidden="true"
               focusable="false"

@@ -79,7 +79,7 @@ const SidebarContainer = styled.div`
   position: -webkit-sticky;
   position: sticky;
   top: 120px;
-  height: 360px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   @media (max-width: ${theme.breakpoint[1]}) {

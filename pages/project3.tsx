@@ -25,18 +25,18 @@ export class Project3 extends React.Component<Props> {
       });
     const scrollResearch = () =>
       window.scrollTo({
-        top: this.Research.current.offsetTop - 120,
+        top: this.Research.current.offsetTop - 220,
         behavior: "smooth",
       });
     const scrollDesign = () =>
       window.scrollTo({
-        top: this.Design.current.offsetTop - 120,
+        top: this.Design.current.offsetTop - 220,
         behavior: "smooth",
       });
 
     const scrollResult = () =>
       window.scrollTo({
-        top: this.Result.current.offsetTop - 120,
+        top: this.Result.current.offsetTop - 220,
         behavior: "smooth",
       });
 

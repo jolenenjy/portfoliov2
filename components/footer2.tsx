@@ -61,7 +61,7 @@ export class Footer2 extends React.Component {
               </SocialIcon>
             </a>
 
-            <a href="/">
+            <a href="mailto:hello@joleneng.com">
               <SocialIcon
                 aria-hidden="true"
                 focusable="false"
