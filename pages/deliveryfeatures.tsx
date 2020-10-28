@@ -109,9 +109,9 @@ export class Project2 extends React.Component<Props> {
         </SideSection>
         <Subtitle>Other Projects </Subtitle>
         <OtherProjects
-          url2="/project3"
+          url2="/parentsgateway"
           proj2="Parents Gateway"
-          url3="/project4"
+          url3="/resaleportal"
           proj3="Housing resale portal"
         />
       </Layout>
@@ -221,6 +221,11 @@ const HalfImg2 = styled.div`
     width: 100%;
     height: 300px;
     background-position: center 30px;
+  }
+  @media (max-width: ${theme.breakpoint[3]}) {
+    background-size: 280px auto;
+    background-position: center 30px;
+    height: 240px;
   }
 `;
 

@@ -16,8 +16,6 @@ export class Project4 extends React.Component<Props> {
     this.Result = React.createRef();
   }
   render() {
-    const { scrollY } = useViewportScroll();
-
     const scrollIntro = () =>
       window.scrollTo({
         top: this.Introduction.current.offsetTop - 290,
@@ -339,6 +337,9 @@ const HalfImg = styled.div`
     width: 100%;
     height: 300px;
   }
+  @media (max-width: ${theme.breakpoint[3]}) {
+    height: 230px;
+  }
 `;
 
 const FullImg = styled.div`
@@ -351,6 +352,9 @@ const FullImg = styled.div`
   background-image: url(/hdb.jpg);
   background-size: cover;
   background-position: center;
+  @media (max-width: ${theme.breakpoint[3]}) {
+    height: 260px;
+  }
 `;
 
 const FullImg2 = styled.div`
@@ -367,6 +371,9 @@ const FullImg2 = styled.div`
   @media (max-width: ${theme.breakpoint[2]}) {
     height: 160px;
   }
+  @media (max-width: ${theme.breakpoint[3]}) {
+    height: 120px;
+  }
 `;
 
 const FullImg3 = styled.div`
@@ -381,6 +388,9 @@ const FullImg3 = styled.div`
   background-repeat: no-repeat;
   @media (max-width: ${theme.breakpoint[2]}) {
     height: 130px;
+  }
+  @media (max-width: ${theme.breakpoint[3]}) {
+    height: 100px;
   }
 `;
 
@@ -397,6 +407,9 @@ const FullImg4 = styled.div`
   @media (max-width: ${theme.breakpoint[2]}) {
     height: 130px;
   }
+  @media (max-width: ${theme.breakpoint[3]}) {
+    height: 100px;
+  }
 `;
 
 const FullImg5 = styled.div`
@@ -411,6 +424,9 @@ const FullImg5 = styled.div`
   background-repeat: no-repeat;
   @media (max-width: ${theme.breakpoint[2]}) {
     height: 110px;
+  }
+  @media (max-width: ${theme.breakpoint[3]}) {
+    height: 80px;
   }
 `;
 
@@ -427,6 +443,9 @@ const FullImg6 = styled.div`
   @media (max-width: ${theme.breakpoint[2]}) {
     height: 260px;
   }
+  @media (max-width: ${theme.breakpoint[3]}) {
+    height: 180px;
+  }
 `;
 
 const FullImg7 = styled.div`
@@ -442,6 +461,9 @@ const FullImg7 = styled.div`
   @media (max-width: ${theme.breakpoint[2]}) {
     height: 300px;
   }
+  @media (max-width: ${theme.breakpoint[3]}) {
+    height: 210px;
+  }
 `;
 
 const FullImg8 = styled.div`
@@ -456,6 +478,9 @@ const FullImg8 = styled.div`
   background-repeat: no-repeat;
   @media (max-width: ${theme.breakpoint[2]}) {
     height: 140px;
+  }
+  @media (max-width: ${theme.breakpoint[3]}) {
+    height: 100px;
   }
 `;
 

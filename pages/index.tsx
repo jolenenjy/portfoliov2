@@ -19,22 +19,22 @@ const IndexPage = () => (
         title="Food"
         subtitle="Self Pick-up"
         imgurl="/spk-0.png"
-        url="/project1"
+        url="/selfpickup"
         title2="Delivery"
         subtitle2="features"
         imgurl2="/grab-0.png"
-        url2="/project2"
+        url2="/deliveryfeatures"
         cta2="View features"
       />
       <WorkSection
         title="Parents Gateway"
         subtitle="for Schools"
         imgurl="/pg-0.png"
-        url="/project3"
+        url="/parentsgateway"
         title2="Housing"
         subtitle2="Resale Portal"
         imgurl2="/hdb-0.png"
-        url2="/project4"
+        url2="/resaleportal"
       />
       <WorkSection2
         title2="MATr"
@@ -53,9 +53,11 @@ const WorkGrid = styled.div`
   margin-top: 96px;
   @media (max-width: ${theme.breakpoint[1]}) {
     grid-gap: 56px;
+    margin-top: 72px;
   }
   @media (max-width: ${theme.breakpoint[2]}) {
     grid-gap: 48px;
+    margin-top: 64px;
   }
 `;
 

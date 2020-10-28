@@ -102,7 +102,7 @@ const SidebarContainer = styled.div`
   @media (min-width: ${theme.breakpoint[1]}) {
     display: none;
   }
-  @media (max-width: ${theme.breakpoint[3]}) {
+  @media (max-width: ${theme.breakpoint[4]}) {
     justify-content: center;
     height: 80px;
   }
@@ -113,7 +113,7 @@ const Logo = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
-  @media (max-width: ${theme.breakpoint[3]}) {
+  @media (max-width: ${theme.breakpoint[4]}) {
     display: none;
   }
 `;

@@ -16,8 +16,6 @@ export class Project1 extends React.Component<Props> {
     this.Result = React.createRef();
   }
   render() {
-    const { scrollY } = useViewportScroll();
-
     const scrollIntro = () =>
       window.scrollTo({
         top: this.Introduction.current.offsetTop - 290,
@@ -100,9 +98,9 @@ export class Project1 extends React.Component<Props> {
         <Subtitle ref={this.Research}>Research</Subtitle>
         <Paragraph>
           At this point, we found that while we understood the problems people
-          face with delivery, we still had a lot to learn how and why are would
-          they takeout food. Hence, I planned for interview and concept testing
-          sessions in both Singapore and Indonesia.
+          face with delivery, we still had a lot to learn how and why they would
+          they get takeout. Hence, I planned for interview and concept testing
+          sessions in Singapore and Indonesia.
         </Paragraph>
         <FullImg2 />
         <Paragraph3>
@@ -206,11 +204,11 @@ export class Project1 extends React.Component<Props> {
         <FullImg7 />
         <Subtitle>Other Projects </Subtitle>
         <OtherProjects
-          url1="/project2"
+          url1="/deliveryfeatures"
           proj1="Delivery Features"
-          url2="/project3"
+          url2="/parentsgateway"
           proj2="Parents Gateway"
-          url3="/project4"
+          url3="/resaleportal"
           proj3="Housing resale portal"
         />
       </Layout>
@@ -307,7 +305,10 @@ const FullImg = styled.div`
   @media (max-width: ${theme.breakpoint[2]}) {
     background-size: contain;
     background-repeat: no-repeat;
-    height: 190px;
+    height: 170px;
+  }
+  @media (max-width: ${theme.breakpoint[3]}) {
+    height: 150px;
   }
 `;
 
@@ -324,6 +325,9 @@ const FullImg2 = styled.div`
     background-size: contain;
     background-repeat: no-repeat;
     height: 150px;
+  }
+  @media (max-width: ${theme.breakpoint[3]}) {
+    height: 120px;
   }
 `;
 
@@ -342,6 +346,9 @@ const FullImg3 = styled.div`
     background-repeat: no-repeat;
     height: 170px;
   }
+  @media (max-width: ${theme.breakpoint[3]}) {
+    height: 130px;
+  }
 `;
 
 const FullImg4 = styled.div`
@@ -358,6 +365,9 @@ const FullImg4 = styled.div`
     background-size: contain;
     background-repeat: no-repeat;
     height: 170px;
+  }
+  @media (max-width: ${theme.breakpoint[3]}) {
+    height: 130px;
   }
 `;
 
@@ -376,6 +386,9 @@ const FullImg5 = styled.div`
     background-repeat: no-repeat;
     height: 170px;
   }
+  @media (max-width: ${theme.breakpoint[3]}) {
+    height: 160px;
+  }
 `;
 const FullImg6 = styled.div`
   width: 100%;
@@ -391,6 +404,9 @@ const FullImg6 = styled.div`
     background-size: contain;
     background-repeat: no-repeat;
     height: 500px;
+  }
+  @media (max-width: ${theme.breakpoint[3]}) {
+    height: 350px;
   }
 `;
 

@@ -16,11 +16,11 @@ interface Props {
 }
 
 const OtherProjects: React.FunctionComponent<Props> = ({
-  url1 = "/project1",
+  url1 = "/selfpickup",
   proj1 = "Self Pick-Up",
-  url2 = "/project2",
+  url2 = "/deliveryfeatures",
   proj2 = "Delivery features",
-  url3 = "/project3",
+  url3 = "/parentsgateway",
   proj3 = "Parents Gateway",
 }) => (
   <Nav>
@@ -40,8 +40,10 @@ const Nav = styled(motion.div)`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
   margin: 24px -8px 0 -8px;
+  @media (max-width: ${theme.breakpoint[2]}) {
+    flex-direction: column;
+  }
 `;
 
 const NavLink = styled(motion.a)`
@@ -65,6 +67,9 @@ const NavLink = styled(motion.a)`
     margin-left: 8px;
     position: absolute;
     transition: ${theme.animations.default};
+  }
+  @media (max-width: ${theme.breakpoint[2]}) {
+    width: 100%;
   }
 `;
 

@@ -162,7 +162,8 @@ const ScrollDiv = styled(motion.div)`
   position: sticky;
   height: 3px;
   top: 0;
-  background: ${theme.colors.lightgrey1};
+  background: ${theme.colors.lightgrey2};
+  z-index: 10000;
 `;
 
 export default Layout;

@@ -217,7 +217,7 @@ export class Project3 extends React.Component<Props> {
         </Paragraph2>
         <FullImg9 />
         <Subtitle>Other Projects </Subtitle>
-        <OtherProjects url3="/project4" proj3="Housing resale portal" />
+        <OtherProjects url3="/resaleportal" proj3="Housing resale portal" />
       </Layout>
     );
   }
@@ -301,7 +301,7 @@ const Quote2 = styled.h3`
 
 const FullImg = styled.div`
   width: 100%;
-  height: 267.45px;
+  height: 255.45px;
   border-radius: 12px;
   margin-top: 48px;
   margin-bottom: 56px;
@@ -311,7 +311,10 @@ const FullImg = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   @media (max-width: ${theme.breakpoint[2]}) {
-    height: 160px;
+    height: 155px;
+  }
+  @media (max-width: ${theme.breakpoint[3]}) {
+    height: 110px;
   }
 `;
 
@@ -329,6 +332,9 @@ const FullImg2 = styled.div`
   @media (max-width: ${theme.breakpoint[2]}) {
     height: 220px;
   }
+  @media (max-width: ${theme.breakpoint[3]}) {
+    height: 160px;
+  }
 `;
 
 const FullImg3 = styled.div`
@@ -343,6 +349,9 @@ const FullImg3 = styled.div`
   background-repeat: no-repeat;
   @media (max-width: ${theme.breakpoint[2]}) {
     height: 180px;
+  }
+  @media (max-width: ${theme.breakpoint[3]}) {
+    height: 120px;
   }
 `;
 
@@ -363,6 +372,9 @@ const FullImg4 = styled.div`
     margin-top: 8px;
     height: 330px;
   }
+  @media (max-width: ${theme.breakpoint[3]}) {
+    height: 260px;
+  }
 `;
 
 const FullImg5 = styled.div`
@@ -379,12 +391,15 @@ const FullImg5 = styled.div`
   @media (max-width: ${theme.breakpoint[2]}) {
     height: 180px;
   }
+  @media (max-width: ${theme.breakpoint[3]}) {
+    height: 150px;
+  }
 `;
 
 const FullImg6 = styled.div`
   width: 100%;
   height: 190px;
-  border-radius: 12px;
+  border-radius: 2px;
   margin-top: 36px;
   margin-bottom: 56px;
   background-image: url(/pg-6.png);
@@ -394,12 +409,15 @@ const FullImg6 = styled.div`
   @media (max-width: ${theme.breakpoint[2]}) {
     height: 120px;
   }
+  @media (max-width: ${theme.breakpoint[3]}) {
+    height: 100px;
+  }
 `;
 
 const FullImg7 = styled.div`
   width: 100%;
   height: 700px;
-  border-radius: 12px;
+  border-radius: 2px;
   margin-top: 32px;
   margin-bottom: 56px;
   background-image: url(/pg-7.png);
@@ -408,6 +426,9 @@ const FullImg7 = styled.div`
   background-repeat: no-repeat;
   @media (max-width: ${theme.breakpoint[2]}) {
     height: 400px;
+  }
+  @media (max-width: ${theme.breakpoint[3]}) {
+    height: 300px;
   }
 `;
 
@@ -424,6 +445,9 @@ const FullImg8 = styled.div`
   @media (max-width: ${theme.breakpoint[2]}) {
     height: 150px;
   }
+  @media (max-width: ${theme.breakpoint[3]}) {
+    height: 120px;
+  }
 `;
 
 const FullImg9 = styled.div`
@@ -439,6 +463,9 @@ const FullImg9 = styled.div`
   background-repeat: no-repeat;
   @media (max-width: ${theme.breakpoint[2]}) {
     height: 200px;
+  }
+  @media (max-width: ${theme.breakpoint[3]}) {
+    height: 130px;
   }
 `;
 export default Project3;
