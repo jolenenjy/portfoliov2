@@ -212,8 +212,8 @@ export class Project3 extends React.Component<Props> {
         </Paragraph>
         <Paragraph2>
           While I did not elaborate on the design considerations for the web app
-          here, that is an area I learned a lot about. I anticipate seeing how
-          the product will improve with future releases.
+          here, it is also an area I learned a lot about. I anticipate seeing
+          how the product will improve with future releases.
         </Paragraph2>
         <FullImg9 />
         <Subtitle>Other Projects </Subtitle>
