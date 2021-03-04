@@ -12,7 +12,7 @@ const IndexPage = () => (
       title="Jolene Ng Jia Ying"
       title2="Sr. Product Designer"
       title3="Codes for fun."
-      subtitle="A designer, researcher, and tinkerer. I started designing after realising I could shape the products in my surroundings. I enjoy working on product experiences with a clear value proposition."
+      subtitle="A designer, researcher, and tinkerer. I started my design journey after realising I could shape the products in my surroundings. I like working on product experiences with a clear value proposition."
     />
     <WorkGrid>
       <WorkSection
