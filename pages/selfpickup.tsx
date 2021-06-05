@@ -164,8 +164,8 @@ export class Project1 extends React.Component<Props> {
         <Quote2>High cancellation rates</Quote2>
         <Paragraph>
           When the feature first launched, we noticed an unusually high number
-          of cancellations and realised most of it was coming from customers who
-          were thought they were made a delivery order. Even though we were
+          of cancellations and realised it was coming from customers who
+          thought they made a delivery order. Even though we were
           aware of this possibility before launch, we mistakenly thought that
           the cues we had was sufficient.
         </Paragraph>
