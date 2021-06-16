@@ -51,7 +51,7 @@ export class Project2 extends React.Component<Props> {
         <TopSection
           title="Delivery features"
           title2=""
-          title3="For Food & Express"
+          title3="For food & express"
           subtitle=""
         />
         <Paragraph>
