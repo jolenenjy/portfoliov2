@@ -182,7 +182,7 @@ export class Project1 extends React.Component<Props> {
         <Paragraph>
           The Self Pick-up product has been steadily growing since the initial
           pilot and is now available in 6 countries across South East Asia with
-          over 360k restaurants onboard. Additionally, with the current
+          over 610k restaurants onboard. Additionally, with the current
           covid-reality, self pick-up has been a timely addition to serve the
           needs of customers who wanted to takeout food but did not want to
           spend too much time outdoors.
